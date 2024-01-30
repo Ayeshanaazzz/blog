@@ -25,3 +25,6 @@ public class Post {
     @OneToMany(mappedBy = "post", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Comment> comments = new ArrayList<>(); // Corrected the property name to match the Comment class
 }
+public void test()
+{
+}
